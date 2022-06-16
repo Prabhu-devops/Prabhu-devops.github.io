@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ubuntu:wght@300&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 5%;
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+     /*background-image: url('/assets/13397.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+}
+/* navigation bar */
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.navbar a{
+    text-decoration: none;
+    color: yellow;
+
+}
+.navbar a:hover{
+    font-size: larger;
+    font-weight: bolder;
+
+}
+.logo{
+    padding: 2px;
+    font-weight: bold;
+  
+
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+#toggler,
+.navbar label{
+    display: none;
+   
+}
+/*Home Section*/
+
+#home{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 10px;
+   
+    
+}
+.heading p{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+
+.home-text{
+    color: white;
+    display: flex;
+    padding: 5px;
+    font-size: 4vw;
+    text-align: left;  
+}
+.home-name{
+    color: yellow;
+}
+.flex-button{
+    padding: 5px;
+}
+.designer-txt{
+    color: white;
+}
+.flex-cointainer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+    padding-bottom: 25px;
+    flex-wrap: wrap;
+        
+ }
+.flex-item{
+    align-items: center;
+    width: 40%;
+    height: auto;
+    padding: 2%;
+    flex-direction: column;
+    
+}
+.flex-item img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.icon-wrapper{
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    display: flex;    
+    flex-wrap: wrap;
+    
+}
+
+.icon img{
+    width: 40px;
+    height: 40px;
+}
+.icon img:hover{
+    width: 45px;
+    height: 45px; 
+     
+}
+.flex-button{
+    width: auto;
+    height: auto;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+/*About Section*/
+#about{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    padding: 1px;
+    
+}
+
+.about-content{
+    padding: 5%;
+}
+.about-content p{
+    text-align: justify;
+    color: white;
+    
+}
+/*Skills Section*/
+#skills{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    padding: 1px;
+    
+}
+.skill-wrapper{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+    
+}
+.skill-bar{
+    
+    width: 200px;
+    border-radius: 5px;
+    align-items: center;
+    height: auto;
+    background-color: white;
+
+}
+.skill-html{
+    width: 90%;
+    height: 5px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.skill-css{
+    width: 70%;
+    height: 5px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.skill-java{
+    width: 50%;
+    height: 5px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.skill-android{
+    width: 40%;
+    height: 5px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.skill-cloud{
+    width: 20%;
+    height: 5px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.skill-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*Project Section*/
+#project{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    padding-top: 3px;
+    padding-right: 3px;
+    
+}
+.card-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 5%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card-content{
+    background-color: white;
+    width:250px;
+    height: auto;
+    border-radius: 5px;
+}
+.card-content p{
+    color: black;
+    text-align: justify;
+}
+.card{
+    padding: 2px;
+}
+.card a{
+    text-decoration: none;
+}
+
+.card-image img{
+    width: 100%;
+    height: 40%;
+    border: 0;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.title p{
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*Contact Section*/
+#contact{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    padding: 1px;
+    
+}
+
+
+.form{
+  padding: 0px 20% 5% 20% ;
+  display: flex;
+  flex-direction: column;    
+  justify-content: center;
+}
+.form input{
+    border-radius: 5px;
+    padding: 5px;
+    border: 0;
+}
+.form textarea{
+    border-radius: 5px;
+    max-width: 100%;
+}
+button{
+    background-color: yellow;
+    color:  black;    
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    font-size: 1em;
+    border: 0ch;  
+
+}
+
+/*footer Section*/
+footer{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 1px;
+}
+.foot{
+    color: white;
+    text-align: center;
+}
+/*Media qureys for responsive design*/
+@media screen and (max-width: 550px){
+
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .navbar label{
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+        height: auto;
+        width: 40px;
+    }
+
+    #toggler:checked ~ .menu{
+        max-height: 100%;
+    }
+    .card-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 5%;
+        align-items: center;
+    }
+    .icon img{
+        width: 10px;
+        height: 10px;
+    }
+    .icon img:hover{
+        width: 15px;
+        height: 15px;
+    }
+    .card-content{
+        width: 90%;
+        height: auto;
+    }
+    .skill-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: space-around;
+        padding: 5%;
+    }
+    .skill-bar{
+        width: 100%;
+        height: auto;
+    }
+    
+}
