@@ -344,12 +344,12 @@ footer{
         align-items: center;
     }
     .icon img{
-        width: 10px;
-        height: 10px;
-    }
-    .icon img:hover{
         width: 15px;
         height: 15px;
+    }
+    .icon img:hover{
+        width: 20px;
+        height: 20px;
     }
     .card-content{
         width: 90%;
