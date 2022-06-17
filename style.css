@@ -94,7 +94,7 @@ body{
         
  }
 .flex-item{
-    align-items: center;
+    align-items: left;
     width: 40%;
     height: auto;
     padding: 2%;
@@ -104,6 +104,7 @@ body{
 .flex-item img{
     width: 100%;
     height: auto;
+    align-items: center;
     
 }
 
@@ -352,13 +353,10 @@ footer{
         align-items: center;
     }
     .icon img{
-        width: 10px;
-        height: 10px;
+        width: 20px;
+        height: 20px;
     }
-    .icon img:hover{
-        width: 15px;
-        height: 15px;
-    }
+   
     .card-content{
         width: 90%;
         height: auto;
