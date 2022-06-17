@@ -292,6 +292,9 @@ body{
     border-radius: 5px;
     max-width: 100%;
 }
+.form a{
+    text-decoration: none;
+}
 button{
     background-color: yellow;
     color:  black;    
