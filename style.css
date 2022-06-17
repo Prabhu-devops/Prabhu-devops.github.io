@@ -87,9 +87,10 @@ body{
     display: flex;
     width: 100%;
     height: auto;
-    padding-left: 5%;
-    padding-bottom: 25px;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+    flex-direction:row;
         
  }
 .flex-item{
@@ -336,6 +337,13 @@ footer{
     #toggler:checked ~ .menu{
         max-height: 100%;
     }
+    .flex-cointainer{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: center;
+        height: auto;
+    }
     .card-wrapper{
         display: flex;
         flex-direction: column;
@@ -344,8 +352,12 @@ footer{
         align-items: center;
     }
     .icon img{
-        width: 20px;
-        height: 20px;
+        width: 10px;
+        height: 10px;
+    }
+    .icon img:hover{
+        width: 15px;
+        height: 15px;
     }
     .card-content{
         width: 90%;
