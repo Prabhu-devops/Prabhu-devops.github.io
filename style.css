@@ -316,7 +316,7 @@ footer{
 }
 .foot{
     color: white;
-    
+    padding-top: 10px;
 }
 .foot a{
     text-decoration: none;
